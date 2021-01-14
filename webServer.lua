@@ -7,7 +7,7 @@ ver 1.2
 -- node.egc.setmode(node.egc.ALWAYS)
 
 do
-    print("Start module WebServer")
+    -- print("Start module WebServer")
     -- HTTP Server
     -- Close old Server
     if HTTPD then
@@ -45,11 +45,11 @@ do
         end
 
     if HTTPD then
-        print("Lister started")
+        -- print("Lister started")
         HTTPD:listen(80, function(conn)
           conn:on("receive", receive_http_try)
         end)
-    else
-        print("Lister not start -> HTTPD=nil")
+    -- else
+        -- print("Lister not start -> HTTPD=nil")
     end
 end

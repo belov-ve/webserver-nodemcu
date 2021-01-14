@@ -4,7 +4,7 @@ ver 1.2
 --]]
 
 do
-    print( "Load WebProcF " .. tostring(node.heap()) )
+    -- print( "Load WebProcF " .. tostring(node.heap()) )
     local maxlen = 128                      -- Ограничение длины передаваемого блока (условно)
     local mlua = "<%?lua(.-)%?>"
 

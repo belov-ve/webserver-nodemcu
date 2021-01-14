@@ -4,7 +4,7 @@ ver 1.2
 --]]
 
 do
-    print( "Load WebProcL " .. tostring(node.heap()) )
+    -- print( "Load WebProcL " .. tostring(node.heap()) )
 
     local sck, url_file = SCK, URL
 
